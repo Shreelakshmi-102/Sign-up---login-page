@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #263342;
+    /* background-color: #1f242a; */
+    /* background: linear-gradient(90deg, #02033b, #381e4a); */
+    /* background: linear-gradient(90deg, #303172, #6d3d90); */
+    background: linear-gradient(90deg, #407a83, #6d3d90);
+    /* background: linear-gradient(90deg, #46a386, #a2d1c6); */
+    margin: 0;
+}
+.signin{
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.837);
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+    height: 450px;
+}
+.signin h2,  h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+    text-transform: capitalize;
+}
+.signin input {
+    width: 270px;
+    padding: 15px;
+    margin-top: 30px;
+    border: 1px solid #9c9999;
+    margin-left: 0px;
+    border-radius: 5px;
+    background-color: #212226;
+    color: aliceblue;
+}
+.signin button {
+    width: 315px;
+    padding: 11px;
+    border-radius: 5px;
+    margin-top: 35px;
+    cursor: pointer;
+    background: #28a745;
+    border: none;
+    color: white;
+}
+.signin button:hover {
+    background: #218838;
+}
+p{
+    margin-top: 20px;
+    color: #686a73;
+}
+span{
+    margin-left: 5px;
+    /* color: #6d3d90; */
+}
+a{
+    color: #6d3d90;
+}
